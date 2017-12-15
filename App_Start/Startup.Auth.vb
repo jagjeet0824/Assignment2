@@ -37,17 +37,18 @@ Partial Public Class Startup
         app.UseTwoFactorRememberBrowserCookie(DefaultAuthenticationTypes.TwoFactorRememberBrowserCookie)
 
         ' Uncomment the following lines to enable logging in with third party login providers
-        'app.UseMicrosoftAccountAuthentication(
-        '    clientId:="",
-        '    clientSecret:="")
+        app.UseMicrosoftAccountAuthentication(
+            clientId:="e3b563c0-693f-4fd0-af43-ec1f4ff3d57e",
+            clientSecret:="tcbZNLLP05^@|aricJX345[")
 
         'app.UseTwitterAuthentication(
         '   consumerKey:="",
         '   consumerSecret:="")
 
-        'app.UseFacebookAuthentication(
-        '   appId:="",
-        '   appSecret:="")
+        app.UseFacebookAuthentication(
+        appId:="1870026686359596
+",
+           appSecret:="caffe0924e4b74fa955cc4ba0227a627")
 
         app.UseGoogleAuthentication(New GoogleOAuth2AuthenticationOptions() With {
            .ClientId = "254471929276-3uiqevpkjb74j5f0avken2b9hji8h7mc.apps.googleusercontent.com",
