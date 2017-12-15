@@ -49,8 +49,8 @@ Partial Public Class Startup
         '   appId:="",
         '   appSecret:="")
 
-        'app.UseGoogleAuthentication(New GoogleOAuth2AuthenticationOptions() With {
-        '   .ClientId = "",
-        '   .ClientSecret = ""})
+        app.UseGoogleAuthentication(New GoogleOAuth2AuthenticationOptions() With {
+           .ClientId = "254471929276-3uiqevpkjb74j5f0avken2b9hji8h7mc.apps.googleusercontent.com",
+           .ClientSecret = "LUap3FtdPXU11Vejkqwd4bgf"})
     End Sub
 End Class
